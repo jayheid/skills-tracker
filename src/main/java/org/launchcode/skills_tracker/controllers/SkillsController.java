@@ -80,11 +80,27 @@ public class SkillsController {
                 "<html>" +
                 "<body>" +
                 "<h1>" + name + "</h1>" +
-                "<ol>" +
-                "<li>" + firstLanguage + "</li>" +
-                "<li>" + secondLanguage + "</li>" +
-                "<li>" + thirdLanguage + "</li>" +
-                "</ol>" +
+                "<table>" +
+                    "<thead>" +
+                    "<tr>" +
+                    "<th> Order </th>" +
+                    "<th> Language </th>" +
+                    "</thead>" +
+                "<tbody>" +
+                    "<tr>" +
+                        "<td> 1 </td>" +
+                        "<td>" + firstLanguage + "</td>" +
+                    "</tr>" +
+                    "<tr>" +
+                        "<td> 2 </td>" +
+                        "<td>" + secondLanguage + "</td>" +
+                    "</tr>" +
+                    "<tr>" +
+                        "<td> 3 </td>" +
+                        "<td>" + thirdLanguage + "</td>" +
+                    "</tr>" +
+                "</tbody>" +
+                "</table>" +
                 "</body>" +
                 "</html>";
     }
